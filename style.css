@@ -1,0 +1,47 @@
+body{
+    max-height: 800px;
+    max-width : 400px;
+    height : 500px;
+    width :400px;
+}
+
+.memo{
+    background-color: #f0f8ff;
+    width : 95%;
+    padding: 3px,3px;
+
+    align-self: center;
+}
+
+.memo text{
+    background-color: #5e88ad;
+    margin: 3px,3px;
+}
+
+.removeButton{
+    background-color: #abf8df;
+}
+
+#container{
+    background-color: #547dbb;
+    width: 100%;
+    height:100%;
+    position:relative;
+}
+
+#bottomFloat{
+    position: sticky;
+    bottom : 0;
+}
+
+#memoContainer{
+    background-color: #c23232;
+    height:100%;
+    width : 90%;
+    position: relative;
+}
+
+#typehere{
+    width:95%;
+    
+}

@@ -1,0 +1,17 @@
+{
+    "name": "simo",
+    "version": "0.0.1",
+    "description": "A minimal memo",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [
+      "memo"
+    ],
+    "author": "kazakan",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "^9.0.3"
+    }
+  }
