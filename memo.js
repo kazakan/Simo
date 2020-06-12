@@ -11,7 +11,7 @@ memoList.forEach(m => {
 });
 
 addBt.onclick = function(){
-    var memo = typehere.value
+    var memo = typeHere.value
     memoList.push(memo)
     localStorage.setItem('memos',JSON.stringify({'memo':memoList}))
     addMemoView(memo)
@@ -35,6 +35,7 @@ function addMemoView(memo){
     buttonNode.onclick=function(){
         memoList.splice(memoList.indexOf(memo),1)
         memoContainer.removeChild(node)
+        localStorage.setItem('memos',JSON.stringify({'memo':memoList}))
     }
 
     memoContainer.appendChild(node);
